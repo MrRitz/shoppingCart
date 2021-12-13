@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Shop</title>
+</head>
+<body>
+    <div class="header-wrapper">
+            <span class="shop-name">Myles' Emporium</span>
+            <a href="#cart_wrapper"><i class="fa badge" style="font-size:24px" value=0>&#xf07a;</i></a>
+            
+    </div>
+
+    <div class="item-wrapper" id="item_wrapper">
+
+        <div class="item">
+            <p class="item-name">Item One</p>
+            <p class="price">$10.50</p>
+            <img src="img/image1.png" alt="image of item" class="item-image">
+            <input type="number" class="item-quantity" value="1">
+            <button class="add-to-cart" type="button">Add to cart</button>
+        </div>
+        
+        <div class="item">
+            <p class="item-name">Item Two</p>
+            <p class="price">$11.50</p>
+            <img src="img/image1.png" alt="image of item" class="item-image">
+            <input type="number" class="item-quantity" value="1">
+            <button class="add-to-cart" type="button">Add to cart</button>
+        </div>
+
+        <div class="item">
+            <p class="item-name">Item Three</p>
+            <p class="price">$12.50</p>
+            <img src="img/image1.png" alt="image of item" class="item-image">
+            <input type="number" class="item-quantity" value="1">
+            <button class="add-to-cart" type="button">Add to cart</button>
+        </div>
+
+        <div class="item">
+            <p class="item-name">Item Four</p>
+            <p class="price">$13.50</p>
+            <img src="img/image1.png" alt="image of item" class="item-image">
+            <input type="number" class="item-quantity" value="1">
+            <button class="add-to-cart" type="button">Add to cart</button>
+        </div>
+        
+    </div>
+    <div class="name-of-cart">
+        <h1>Cart</h1>
+    </div>
+    <div class="cart-wrapper" id="cart_wrapper">
+
+        <!-- <div class="cart" id="cart">
+            <p class="item-name">Item Two</p>
+            <img src="img/image1.png" alt="image of item" class="item-image">
+            <p class="price">$20.00</p>
+            <input type="number" class="cart-quantity" value="0">
+            <button class="remove-from-cart" type="button">Remove</button>
+        </div> -->
+
+    </div>
+
+    <div class="total-wrapper">
+        <div class="total">
+            <h1>Total</h1>
+            <p class="total-price">$0.00</p> 
+            <button class="order">Place Order</button>
+            <p class="order-placed">Thank you! You're order has been placed!
+                <a href="?">Place another order</a>
+            </p>
+            
+        </div>
+        
+    </div>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
